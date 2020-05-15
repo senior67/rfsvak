@@ -8,6 +8,8 @@ import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
+import './Home.css';
+
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader>Czech VAC</PanelHeader>
@@ -21,9 +23,9 @@ const Home = ({ id, go, fetchedUser }) => (
 			</Cell>
 		</Group>}
 
-		<p>Добро пожаловать в официальное приложение ВАК "Чешские авиалинии", представленной в авиасимуляторе RFS!</p>
+		<p className="Text">Добро пожаловать в официальное приложение ВАК "Чешские авиалинии", представленной в авиасимуляторе RFS!</p>
 
-		<p>Здесь вы может ознакомиться с нашим флотом, направлениями авиакомпании, рейтингом пилотов и другой информацией!</p>
+		<p className="Text">Здесь вы может ознакомиться с нашим флотом, направлениями авиакомпании, рейтингом пилотов и другой информацией!</p>
 		<Group title="Navigation Example">
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
