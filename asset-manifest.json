@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rfsvak/static/css/main.ce2b6a5d.chunk.css",
+    "main.css": "/rfsvak/static/css/main.5a6597ea.chunk.css",
     "main.js": "/rfsvak/static/js/main.d31f51fe.chunk.js",
     "main.js.map": "/rfsvak/static/js/main.d31f51fe.chunk.js.map",
     "runtime-main.js": "/rfsvak/static/js/runtime-main.2ae04bb3.js",
@@ -9,10 +9,10 @@
     "static/js/2.679ba7c9.chunk.js": "/rfsvak/static/js/2.679ba7c9.chunk.js",
     "static/js/2.679ba7c9.chunk.js.map": "/rfsvak/static/js/2.679ba7c9.chunk.js.map",
     "index.html": "/rfsvak/index.html",
-    "precache-manifest.f998a2d24cea79afbe6f8007342afee4.js": "/rfsvak/precache-manifest.f998a2d24cea79afbe6f8007342afee4.js",
+    "precache-manifest.78aaecc0f24ed4764d1e34d26b8c4452.js": "/rfsvak/precache-manifest.78aaecc0f24ed4764d1e34d26b8c4452.js",
     "service-worker.js": "/rfsvak/service-worker.js",
     "static/css/2.86df01db.chunk.css.map": "/rfsvak/static/css/2.86df01db.chunk.css.map",
-    "static/css/main.ce2b6a5d.chunk.css.map": "/rfsvak/static/css/main.ce2b6a5d.chunk.css.map",
+    "static/css/main.5a6597ea.chunk.css.map": "/rfsvak/static/css/main.5a6597ea.chunk.css.map",
     "static/js/2.679ba7c9.chunk.js.LICENSE.txt": "/rfsvak/static/js/2.679ba7c9.chunk.js.LICENSE.txt",
     "static/media/persik.png": "/rfsvak/static/media/persik.4e1ec840.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.2ae04bb3.js",
     "static/css/2.86df01db.chunk.css",
     "static/js/2.679ba7c9.chunk.js",
-    "static/css/main.ce2b6a5d.chunk.css",
+    "static/css/main.5a6597ea.chunk.css",
     "static/js/main.d31f51fe.chunk.js"
   ]
 }
