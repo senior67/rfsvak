@@ -6,7 +6,6 @@ import Button from '@vkontakte/vkui/dist/components/Button/Button';
 import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
-import Text from '@vkontakte/vkui/dist/components/Text/Text';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
 const Home = ({ id, go, fetchedUser }) => (
@@ -22,9 +21,9 @@ const Home = ({ id, go, fetchedUser }) => (
 			</Cell>
 		</Group>}
 
-		<Text weight="medium" style={{ marginBottom: 16 }}>Добро пожаловать в официальное приложение ВАК "Чешские авиалинии", представленной в авиасимуляторе RFS!</Text>
+		<p>Добро пожаловать в официальное приложение ВАК "Чешские авиалинии", представленной в авиасимуляторе RFS!</p>
 
-		<Text weight="medium" style={{ marginBottom: 16 }}>Здесь вы может ознакомиться с нашим флотом, направлениями авиакомпании, рейтингом пилотов и другой информацией!</Text>
+		<p>Здесь вы может ознакомиться с нашим флотом, направлениями авиакомпании, рейтингом пилотов и другой информацией!</p>
 		<Group title="Navigation Example">
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
