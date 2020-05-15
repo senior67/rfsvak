@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rfsvak/static/css/main.981f7211.chunk.css",
+    "main.js": "/rfsvak/static/js/main.8eb044e9.chunk.js",
+    "main.js.map": "/rfsvak/static/js/main.8eb044e9.chunk.js.map",
+    "runtime-main.js": "/rfsvak/static/js/runtime-main.2ae04bb3.js",
+    "runtime-main.js.map": "/rfsvak/static/js/runtime-main.2ae04bb3.js.map",
+    "static/css/2.86df01db.chunk.css": "/rfsvak/static/css/2.86df01db.chunk.css",
+    "static/js/2.fc6a7c9b.chunk.js": "/rfsvak/static/js/2.fc6a7c9b.chunk.js",
+    "static/js/2.fc6a7c9b.chunk.js.map": "/rfsvak/static/js/2.fc6a7c9b.chunk.js.map",
+    "index.html": "/rfsvak/index.html",
+    "precache-manifest.802bf001b8047a90d479a06232351869.js": "/rfsvak/precache-manifest.802bf001b8047a90d479a06232351869.js",
+    "service-worker.js": "/rfsvak/service-worker.js",
+    "static/css/2.86df01db.chunk.css.map": "/rfsvak/static/css/2.86df01db.chunk.css.map",
+    "static/css/main.981f7211.chunk.css.map": "/rfsvak/static/css/main.981f7211.chunk.css.map",
+    "static/js/2.fc6a7c9b.chunk.js.LICENSE.txt": "/rfsvak/static/js/2.fc6a7c9b.chunk.js.LICENSE.txt",
+    "static/media/persik.png": "/rfsvak/static/media/persik.4e1ec840.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ae04bb3.js",
+    "static/css/2.86df01db.chunk.css",
+    "static/js/2.fc6a7c9b.chunk.js",
+    "static/css/main.981f7211.chunk.css",
+    "static/js/main.8eb044e9.chunk.js"
+  ]
+}
