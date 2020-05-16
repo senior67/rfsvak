@@ -26,22 +26,22 @@ const Home = ({ id, go, fetchedUser }) => (
 		<p>Здесь вы может ознакомиться с нашим флотом, направлениями авиакомпании, рейтингом пилотов и другой информацией!</p>
 		<Group title="Navigation Example">
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
+				<Button size="xl" level="2" onClick={go} data-to="routes">
 					Направления ВАК
 				</Button>
 			</Div>
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
+				<Button size="xl" level="2" onClick={go} data-to="flot">
 					Авиафлот ВАК
 				</Button>
 			</Div>
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
+				<Button size="xl" level="2" onClick={go} data-to="rate">
 					Рейтинг пилотов ВАК
 				</Button>
 			</Div>
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
+				<Button size="xl" level="2" onClick={go} data-to="about">
 					О ВАК
 				</Button>
 			</Div>
