@@ -69,7 +69,7 @@ export default function Home(props) {
                                     <div
                                         style={{
                                             backgroundColor: '#FF8E22',
-                                            backgroundImage: 'url(https://image.flaticon.com/icons/svg/1454/1454500.svg)',
+                                            backgroundImage: './../img/transportation.svg',
                                             backgroundPosition: 'right bottom',
                                             backgroundSize: 70,
                                             backgroundRepeat: 'no-repeat',
@@ -85,7 +85,7 @@ export default function Home(props) {
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
                                 <Title level="2" style={{ marginBottom: 10 }}>Кто вы?</Title>
-                                <Headline weight="regular" style={{ marginBottom: 0 }}>Мы - ВАК (виртуальная авиакомпания), представленная в игре Real Flight Simulator (RORTOS).
+                                <Headline weight="regular" style={{ marginBottom: 0 }}>Мы - ВАК (виртуальная авиакомпания), представленная в игре Real Flight Simulator (RORTOS).<br />
                                 Хаб: Пражский аэропорт имени Вацлава Гавела (LKPR)</Headline>
                             </Div>
                         </Card>
