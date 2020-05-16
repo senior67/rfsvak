@@ -73,6 +73,7 @@ export default function Urban(props) {
                     <CardGrid>
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
+                                <Headline weight="regular" style={{ marginBottom: 0 }}>Airbus А320-200 — одна из модификаций популярного Airbus A320. Основное отличие от предыдущей версии — увеличенный объём топливных баков и множество технических нововведений, касающихся двигательной части.</Headline>
                                 <img src={require('./../img/A320.jpg')} alt="photo A320" width="100%" />
                             </Div>
                         </Card>
