@@ -14,7 +14,7 @@ export default function Home(props) {
     const [modalOpen, setModalOpen] = useState(props.modalOpen)
     const seenButton = () => {
         props.closeModal(false)
-        props.changeScreen("phrases")
+        props.changeScreen("Phrases")
     }
     return (
         <View>

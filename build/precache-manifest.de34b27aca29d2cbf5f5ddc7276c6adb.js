@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96617ffe6d91b5eff0254ba652a8480a",
+    "revision": "61a28024b049321502079909a14c0ae7",
     "url": "/rfsvak/index.html"
   },
   {
-    "revision": "e06ab71b79dbfca87442",
+    "revision": "7ab9231e31caae0536a8",
     "url": "/rfsvak/static/css/2.47f050ad.chunk.css"
   },
   {
-    "revision": "5181a4f8424def5c188f",
+    "revision": "09da6f3739c7f59f7738",
     "url": "/rfsvak/static/css/main.3fe1dfa9.chunk.css"
   },
   {
-    "revision": "e06ab71b79dbfca87442",
-    "url": "/rfsvak/static/js/2.100bf740.chunk.js"
+    "revision": "7ab9231e31caae0536a8",
+    "url": "/rfsvak/static/js/2.bb02541a.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/rfsvak/static/js/2.100bf740.chunk.js.LICENSE.txt"
+    "url": "/rfsvak/static/js/2.bb02541a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5181a4f8424def5c188f",
-    "url": "/rfsvak/static/js/main.bc9682bb.chunk.js"
+    "revision": "09da6f3739c7f59f7738",
+    "url": "/rfsvak/static/js/main.bf263691.chunk.js"
   },
   {
     "revision": "337c1ab158b072d84bea",
