@@ -75,7 +75,7 @@ export default function Urban(props) {
                             <Div>
                                 <Title level="2" style={{ marginBottom: 10 }}>Airbus A320-200</Title>
                                 <Headline weight="regular" style={{ marginBottom: 0 }}>Используется для коротких полетов</Headline>
-                                <img src={require('./../img/A320.jpg')} alt="photo A320" />
+                                <img src={require('./../img/A320.jpg')} alt="photo A320" width="85%" />
                             </Div>
                         </Card>
                     </CardGrid>
