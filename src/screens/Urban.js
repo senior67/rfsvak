@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import { View, Panel, FormLayout, FormLayoutGroup, Card, CardGrid, Headline, Title, Input, List, Div, Button, Cell, PanelHeader, PanelHeaderContent, PanelHeaderContext, Group } from '@vkontakte/vkui'
+import { View, Panel, FormLayout, FormLayoutGroup, Card, CardGrid, Header, Headline, Title, Input, List, Div, Button, Cell, PanelHeader, PanelHeaderContent, PanelHeaderContext, Group } from '@vkontakte/vkui'
 import LibraryContext from '../context/LibraryContext'
 
 export default function Urban(props) {
