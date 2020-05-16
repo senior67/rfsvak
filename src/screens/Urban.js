@@ -54,7 +54,7 @@ export default function Urban(props) {
                                     data-mode="managed"
                                     onClick={() => props.changeScreen("about")}
                                 >
-                                    Рейтинг пилотов
+                                    О приложении
                         </Cell>
                             </List>
                         </PanelHeaderContext>

@@ -23,19 +23,19 @@ export default function About(props) {
                             data-mode="all"
                             onClick={() => props.changeScreen("main")}
                         >
-                            Главная
+                            Главная (О ВАК)
                         </Cell>
                         <Cell
                             data-mode="managed"
                             onClick={() => props.changeScreen("phrases")}
                         >
-                            Цитаты
+                            Направления
                         </Cell>
                         <Cell
                             data-mode="managed"
                             onClick={() => props.changeScreen("library")}
                         >
-                            Библиотека 
+                            Воздушный флот 
                         </Cell>
                         <Cell
                             data-mode="managed"
@@ -49,8 +49,8 @@ export default function About(props) {
                     <CardGrid>
                         <Card size="l" mode="shadow">
                             <Div>
-                                <Title level="2" style={{ marginBottom: 10 }}>Зачем тебе это?</Title>
-                                <Headline weight="regular" style={{ marginBottom: 0 }}>Данное приложениие уже прошло стадию MVP и в данный момент является инструментом, который может быть полезен для всех!</Headline>
+                                <Title level="2" style={{ marginBottom: 10 }}>Зачем нам это?</Title>
+                                <Headline weight="regular" style={{ marginBottom: 0 }}>Данное приложение разработано с использованием исходников нижеуказанного автора на GitHub. В этом приложении можно ознакомится с ВАК "Czech Airlines"</Headline>
                             </Div>
                         </Card>
                     </CardGrid>
@@ -59,21 +59,16 @@ export default function About(props) {
                     <CardGrid>
                         <Card size="l" mode="shadow">
                             <Div>
-                                <Title level="2" style={{ marginBottom: 10 }}>Кем сделано?</Title>
-                                <Headline weight="regular" style={{ marginBottom: 0 }}>Сделанно <a href="https://vk.com/s.sergeenkov">Александром Сергеенковым</a></Headline>
+                                <Title level="2" style={{ marginBottom: 10 }}>Кто разработчик?</Title>
+                                <Headline weight="regular" style={{ marginBottom: 0 }}>Автор исходников на Github: <a href="https://vk.com/s.sergeenkov">Александр Сергеенков</a><br />Доработка: <a href="https://vk.com/senior67">Сергей Ахачинский</a><br />Идея и скриншоты: <a href="https://vk.com/czechvak">ВАК "Czech Airlines"</a></Headline>
                             </Div>
                         </Card>
                     </CardGrid>
                 </Group>
                 <Group>
                 <Div className="home__button" style={{bottom: 70}}>
-                        <Button stretched mode="primary" size="l" onClick={() => bridge.send("VKWebAppJoinGroup", {"group_id": 195028399})}>
-                            Сообщество с приложениями
-                        </Button>
-                    </Div>
-                    <Div className="home__button">
-                        <Button stretched mode="secondary" size="l" onClick={() => bridge.send("VKWebAppAllowNotifications", {})}>
-                            Узнавать о приложениях
+                        <Button stretched mode="primary" size="l" onClick={() => bridge.send("VKWebAppJoinGroup", {"group_id": 195333140})}>
+                            Сообщество ВАК
                         </Button>
                     </Div>
                 </Group>

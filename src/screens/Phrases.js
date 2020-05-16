@@ -44,7 +44,7 @@ export default function Phrases(props) {
                             data-mode="managed"
                             onClick={() => props.changeScreen("about")}
                         >
-                            Рейтинг пилотов
+                            О приложении
                         </Cell>
                     </List>
                 </PanelHeaderContext>
