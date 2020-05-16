@@ -14,7 +14,7 @@ export default function Home(props) {
     const [modalOpen, setModalOpen] = useState(props.modalOpen)
     const seenButton = () => {
         props.closeModal(false)
-        props.changeScreen("Phrases")
+        props.changeScreen("phrases")
     }
     return (
         <View>
@@ -68,7 +68,7 @@ export default function Home(props) {
                                 background={
                                     <div
                                         style={{
-                                            backgroundColor: '#FF8E22',
+                                            backgroundColor: '#DC143C',
                                             backgroundImage: './../img/transportation.svg',
                                             backgroundPosition: 'right bottom',
                                             backgroundSize: 70,
