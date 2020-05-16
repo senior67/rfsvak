@@ -69,12 +69,11 @@ export default function Urban(props) {
                         </Card>
                     </CardGrid>
                 </Group>
-                <Group separator="hide">
+                <Group separator="hide" header={<Header mode="secondary">Airbus A320-200</Header>}>
                     <CardGrid>
-                        <Card size="l" mode="shadow" style={{ marginTop: 10 }} header={<Header mode="secondary">Airbus A320-200</Header>}>
+                        <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
-                                <Headline weight="regular" style={{ marginBottom: 0 }}>Используется для коротких полетов</Headline>
-                                <img src={require('./../img/A320.jpg')} alt="photo A320" width="85%" />
+                                <img src={require('./../img/A320.jpg')} alt="photo A320" width="100%" />
                             </Div>
                         </Card>
                     </CardGrid>
