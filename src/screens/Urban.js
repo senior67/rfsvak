@@ -1,7 +1,6 @@
 import React, { useState, useContext } from 'react'
 import { View, Panel, FormLayout, FormLayoutGroup, Card, CardGrid, Headline, Title, Input, List, Div, Button, Cell, PanelHeader, PanelHeaderContent, PanelHeaderContext, Group } from '@vkontakte/vkui'
 import LibraryContext from '../context/LibraryContext'
-import BooksList from '../components/BookList'
 
 export default function Urban(props) {
     const [contextOpened, setContextOpened] = useState(false)
@@ -63,7 +62,7 @@ export default function Urban(props) {
                     <CardGrid>
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
-                                <Title level="2" style={{ marginBottom: 10 }}>Воздушный флот</Title>
+                                <Title level="1" style={{ marginBottom: 10 }}>Воздушный флот</Title>
                                 <Headline weight="regular" style={{ marginBottom: 0 }}>Воздушный флот виртуальной авиакомпании «Czech Airlines» представлен девятью воздушными судами.
                             </Headline>
                             </Div>
@@ -74,7 +73,7 @@ export default function Urban(props) {
                     <CardGrid>
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
-                                <Title level="3" style={{ marginBottom: 10 }}>Airbus A320-200</Title>
+                                <Title level="2" style={{ marginBottom: 10 }}>Airbus A320-200</Title>
                                <img src={require('./../img/A320.jpg')} alt="">A320</img>
                             </Div>
                         </Card>
