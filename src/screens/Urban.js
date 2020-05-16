@@ -104,7 +104,7 @@ export default function Urban(props) {
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
                                 <Headline weight="regular" style={{ marginBottom: 0 }}>В мире существует огромное количество различных авиалайнеров, но Airbus A380-800 – это тот самолет, на который действительно стоит обратить внимание. Подобных лайнеров на планете не очень много. Дело в том, что этот является самым большим пассажирским широкофюзеляжным летательным аппаратом, оснащенным двумя палубами. <br /></Headline>
-                                <img src={require('./../img/A380.jpg')} alt="photo A320" width="100%" />
+                                <img src={require('./../img/A380.jpg')} alt="photo A380" width="100%" />
                             </Div>
                         </Card>
                     </CardGrid>
@@ -114,7 +114,7 @@ export default function Urban(props) {
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
                                 <Headline weight="regular" style={{ marginBottom: 0 }}>ATR 72 — пассажирский двухмоторный турбовинтовой самолёт для среднемагистральных перелётов. Самолёт предназначен для перевозки до 74 пассажиров одного класса на расстояние до 1300 км и управляется двумя пилотами. Производитель — франко-итальянский концерн ATR.<br /></Headline>
-                                <img src={require('./../img/ATR72.jpg')} alt="photo A320" width="100%" />
+                                <img src={require('./../img/ATR72.jpg')} alt="photo ATR-72" width="100%" />
                             </Div>
                         </Card>
                     </CardGrid>
@@ -124,7 +124,7 @@ export default function Urban(props) {
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
                                 <Headline weight="regular" style={{ marginBottom: 0 }}>Boeing 737–800 — среднемагистральный пассажирский самолет, один из самых популярных американских лайнеров в парках мировых авиакомпаний, в том числе и чешских. Выпускается корпорацией Boeing с конца 1990-х годов.<br /></Headline>
-                                <img src={require('./../img/B737.jpg')} alt="photo A320" width="100%" />
+                                <img src={require('./../img/B737-800.jpg')} alt="photo B737" width="100%" />
                             </Div>
                         </Card>
                     </CardGrid>
@@ -134,7 +134,7 @@ export default function Urban(props) {
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
                                 <Headline weight="regular" style={{ marginBottom: 0 }}>Boeing 787 Dreamliner — широкофюзеляжный двухдвигательный пассажирский самолёт, разработанный американской компанией Boeing. По вместимости и дальности полёта 787 сравним с Boeing 767. Boeing утверждает, что Dreamliner более экономичный, чем предыдущие разработки. Boeing 787 стал первым пассажирским самолётом компании, в конструкции которого широко использованы композитные материалы. <br /></Headline>
-                                <img src={require('./../img/B787.jpg')} alt="photo A320" width="100%" />
+                                <img src={require('./../img/B787-8.jpg')} alt="photo B787-8" width="100%" />
                             </Div>
                         </Card>
                     </CardGrid>
@@ -144,7 +144,7 @@ export default function Urban(props) {
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
                                 <Headline weight="regular" style={{ marginBottom: 0 }}>Bombardier CRJ900 представляет собой удлиненную версию модели CRJ-700, вместе с которой входит в семейство региональных самолетов CRJ. CRJ900 предназначен для обслуживания региональных маршрутов с повышенным пассажиропотоком.<br /></Headline>
-                                <img src={require('./../img/CRJ900.jpg')} alt="photo A320" width="100%" />
+                                <img src={require('./../img/CRJ900.jpg')} alt="photo CRJ900" width="100%" />
                             </Div>
                         </Card>
                     </CardGrid>
@@ -154,7 +154,7 @@ export default function Urban(props) {
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
                                 <Headline weight="regular" style={{ marginBottom: 0 }}>Ту-154М (по кодификации НАТО: Careless — «Беззаботный», на сленге советских пилотов — «Полтинник», «Туполь», «Большая Тушка» или «Аврора») — советский трёхдвигательный реактивный пассажирский авиалайнер для авиалиний средней протяжённости, рассчитанный на перевозку 152—180 пассажиров. Разработан в 1960-х годах в СССР в ОКБ Туполева. <br /></Headline>
-                                <img src={require('./../img/TU154M.jpg')} alt="photo A320" width="100%" />
+                                <img src={require('./../img/TU154M.jpg')} alt="photo TU154M" width="100%" />
                             </Div>
                         </Card>
                     </CardGrid>
