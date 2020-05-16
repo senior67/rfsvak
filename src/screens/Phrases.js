@@ -16,7 +16,7 @@ export default function Phrases(props) {
                     <PanelHeaderContent
                         onClick={() => setContextOpened(!contextOpened)}
                     >
-                        Цитаты
+                        Направления
                         <img src={require('./../img/multimedia-option.svg')} alt="" className="home__arrow-down" onClick={() => setContextOpened(!contextOpened)} />
                     </PanelHeaderContent>
                 </PanelHeader>
@@ -26,25 +26,25 @@ export default function Phrases(props) {
                             data-mode="all"
                             onClick={() => props.changeScreen("main")}
                         >
-                            Главная
+                            Главная (О ВАК)
                         </Cell>
                         <Cell
                             data-mode="managed"
                             onClick={() => setContextOpened(!contextOpened)}
                         >
-                            Цитаты
+                            Направления
                         </Cell>
                         <Cell
                             data-mode="managed"
                             onClick={() => props.changeScreen("library")}
                         >
-                            Библиотека 
+                            Авиафлот
                         </Cell>
                         <Cell
                             data-mode="managed"
                             onClick={() => props.changeScreen("about")}
                         >
-                            О приложении
+                            Рейтинг пилотов
                         </Cell>
                     </List>
                 </PanelHeaderContext>
@@ -52,28 +52,51 @@ export default function Phrases(props) {
                     <CardGrid>
                         <Card size="l" mode="shadow">
                             <Div>
-                                <Title level="2" style={{ marginBottom: 10 }}>Твоя цитата:</Title>
-                                <Headline weight="regular" style={{ marginBottom: 0 }}>{phrase}</Headline>
+                                <Title level="2" style={{ marginBottom: 10 }}>Наши направления:</Title>
+                                <Headline weight="regular" style={{ marginBottom: 0 }}>[🇨🇿] Внутренние рейсы:
+0️⃣0️⃣1️⃣ 🇨🇿 Аэропорт им. Вацлава Гавела - аэропорт Пардубице (LKPR - LKPD)
+0️⃣0️⃣2️⃣ 🇨🇿 Аэропорт им. Вацлава Гавела - аэропорт «Карловы Вары» (LKPR - LKKV)
+0️⃣0️⃣3️⃣ 🇫🇷 Аэропорт им. Вацлава Гавела - Аэропорт Леош Яначек (LKPR - LKMT)
+
+[🇪🇺] Международные рейсы:
+0️⃣0️⃣4️⃣ 🇩🇪 Прага - Дрезден (LKPR - EDDC)
+0️⃣0️⃣5️⃣ 🇩🇪 Прага - Дюссельдорф (LKPR - EDDL)
+0️⃣0️⃣6️⃣ 🇩🇪 Прага - Мюнхен (LKPR - EDDM)
+0️⃣0️⃣7️⃣ 🇩🇪 Прага - Лейпциг (LKPR - EDDP)
+0️⃣0️⃣8️⃣ 🇩🇪 Прага - Франкфурт (LKPR - EDDF)
+
+0️⃣0️⃣9️⃣ 🇦🇹 Прага - Вена (LKPR - LOWW)
+
+0️⃣1️⃣0️⃣ 🇷🇺 Прага - Москва (Домодедово) (LKPR - UUDD)
+0️⃣1️⃣1️⃣ 🇷🇺 Прага - Москва (Шереметьево) (LKPR - UUWW)
+0️⃣1️⃣2️⃣ 🇷🇺 Прага - Москва (Внуково) (LKPR - UUEE)
+0️⃣1️⃣3️⃣ 🇷🇺 Прага - Санкт-Петербург (Пулково) (LKPR - ULLI)
+0️⃣1️⃣4️⃣ 🇷🇺 Прага - Екатеринбург (LKPR - USSS)
+0️⃣1️⃣5️⃣ 🇷🇺 Прага - Калининград (LKPR - UMKK)
+
+0️⃣1️⃣6️⃣ 🇧🇾 Прага - Минск (LKPR - UMMS)
+0️⃣1️⃣7️⃣ 🇧🇾 Прага - Брест (LKPR - UMBB)
+
+0️⃣1️⃣8️⃣ 🇱🇹 Прага - Вильнюс (LKPR - EYVI)
+
+0️⃣1️⃣9️⃣ 🇺🇦 Прага - Борисполь (LKPR - UKBB)
+0️⃣2️⃣0️⃣ 🇺🇦 Прага - Харьков (LKPR - UKKH)
+
+0️⃣2️⃣1️⃣ 🇵🇱 Прага - Варшава (аэропорт им. Фридерика Шопена) (LKPR - EPWA)
+0️⃣2️⃣2️⃣ 🇵🇱 Прага - Катовице (LKPR - EPKT)
+0️⃣2️⃣3️⃣ 🇵🇱 Прага - Краков (LKPR - EPKK)
+
+0️⃣2️⃣4️⃣ 🇫🇷 Прага - Париж (аэропорт Шарль-де-Голль) (LKPR - LFPG)
+0️⃣2️⃣5️⃣ 🇫🇷 Прага - Ницца (Лазурный Берег) (LKPR - LFMN)
+0️⃣2️⃣6️⃣ 🇫🇷 Прага - Марсель (LKPR - LFML)
+
+0️⃣2️⃣7️⃣ 🇬🇧 Прага - Лондон (Хитроу) (LKPR - EGLL)
+
+0️⃣2️⃣8️⃣ 🇪🇸 Прага - Мадрид (LKPR - LEMD)
+</Headline>
                             </Div>
                         </Card>
                     </CardGrid>
-                </Group>
-                <Group>
-                    <Div className="home__button" style={{ bottom: 120 }}>
-                        <Button stretched mode="primary" size="l" onClick={() => setPhrase(love)}>
-                            Цитата о любви
-                        </Button>
-                    </Div>
-                    <Div className="home__button" style={{ bottom: 70 }}>
-                        <Button stretched mode="primary" size="l" onClick={() => setPhrase(life)}>
-                            Цитата о жизни
-                        </Button>
-                    </Div>
-                    <Div className="home__button">
-                        <Button stretched mode="primary" size="l" onClick={() => setPhrase(friendship)}>
-                            Цитата о дружбе
-                        </Button>
-                    </Div>
                 </Group>
             </Panel>
         </View>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Panel, View, PanelHeader, Button, Div, Group, Headline, Title, Card, CardGrid, Avatar, PanelHeaderContent, Cell, List, PanelHeaderContext, Banner } from '@vkontakte/vkui';
+import { Panel, View, PanelHeader, Button, Div, Group, Headline, Title, Card, CardGrid, Avatar, PanelHeaderContent, Cell, List, PanelHeaderContext, Banner, Link } from '@vkontakte/vkui';
 import { Excuses } from './../Data'
 import './Home.sass'
 
@@ -24,7 +24,7 @@ export default function Home(props) {
                     <PanelHeaderContent
                         onClick={() => setContextOpened(!contextOpened)}
                     >
-                        Главная
+                        Главная (О ВАК)
                         <img src={require('./../img/multimedia-option.svg')} alt="" className="home__arrow-down" onClick={() => setContextOpened(!contextOpened)} />
                     </PanelHeaderContent>
                 </PanelHeader>
@@ -34,25 +34,25 @@ export default function Home(props) {
                             data-mode="all"
                             onClick={() => setContextOpened(!contextOpened)}
                         >
-                            Главная
+                            Главная (О ВАК)
                         </Cell>
                         <Cell
                             data-mode="managed"
                             onClick={() => props.changeScreen("phrases")}
                         >
-                            Цитаты
+                            Направления
                         </Cell>
                         <Cell
                             data-mode="managed"
                             onClick={() => props.changeScreen("library")}
                         >
-                            Библиотека
+                            Авиафлот
                         </Cell>
                         <Cell
                             data-mode="managed"
                             onClick={() => props.changeScreen("about")}
                         >
-                            О приложении
+                            Рейтинг пилотов
                         </Cell>
 
                     </List>
@@ -63,8 +63,8 @@ export default function Home(props) {
                         modalOpen ?
                             <Banner
                                 mode="image"
-                                header="Новая версия приложения!"
-                                subheader="Добавлена страница 'Библиотека'"
+                                header="Добавлены новые направления!"
+                                subheader="Добавлены новые направления ВАК 'Czech Airlines'"
                                 background={
                                     <div
                                         style={{
@@ -84,8 +84,9 @@ export default function Home(props) {
                     <CardGrid>
                         <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
                             <Div>
-                                <Title level="2" style={{ marginBottom: 10 }}>Зачем тебе это?</Title>
-                                <Headline weight="regular" style={{ marginBottom: 0 }}>У каждого бывало, что нужно придумать правдоподобную отмазку для заказчика/директора/тимлида, не так ли? Так вот, данное приложение поможет вам с этим!</Headline>
+                                <Title level="2" style={{ marginBottom: 10 }}>Кто вы?</Title>
+                                <Headline weight="regular" style={{ marginBottom: 0 }}>Мы - ВАК (виртуальная авиакомпания), представленная в игре Real Flight Simulator (RORTOS).
+                                Хаб: Пражский аэропорт имени Вацлава Гавела (LKPR)</Headline>
                             </Div>
                         </Card>
                     </CardGrid>
@@ -94,20 +95,12 @@ export default function Home(props) {
                     <CardGrid>
                         <Card size="l" mode="shadow">
                             <Div>
-                                <Title level="2" style={{ marginBottom: 10 }}>Твоя отмазка:</Title>
-                                <Headline weight="regular" style={{ marginBottom: 0 }}>{phrase}</Headline>
+                                <Title level="2" style={{ marginBottom: 10 }}>Хочу к вам, что сделать?</Title>
+                                <Headline weight="regular" style={{ marginBottom: 0 }}>Вся информация есть в нашем официальном сообществе ВКонтакте -> <Link href="https://vk.com/czechvak">*тык*</Link></Headline>
                             </Div>
                         </Card>
                     </CardGrid>
                 </Group>
-                <Group>
-                    <Div className="home__button">
-                        <Button stretched mode="primary" size="l" onClick={() => setPhrase(item)}>
-                            Придумать отмазку
-                        </Button>
-                    </Div>
-                </Group>
-
             </Panel>
         </View>
     )
