@@ -1,51 +1,68 @@
 import React, { useState, useEffect } from 'react';
-import bridge from '@vkontakte/vk-bridge';
-import View from '@vkontakte/vkui/dist/components/View/View';
-import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenSpinner';
+import { View, Panel, PanelHeader, Header, Tabbar, Epic, TabbarItem, Root } from '@vkontakte/vkui';
 import '@vkontakte/vkui/dist/vkui.css';
+import Home from './screens/Home'
+import About from './screens/About';
+import Phrases from './screens/Phrases';
+import Urban from './screens/Urban';
+import LibraryContext from './context/LibraryContext';
+import { v4 as uuidv4 } from 'uuid';
+import { Icon28NewsfeedOutline } from '@vkontakte/icons/dist/28/newsfeed_outline'
+import { Icon28SearchOutline } from '@vkontakte/icons/dist/28/search_outline'
+import { Icon28MessageOutline } from '@vkontakte/icons/dist/28/message_outline'
+import { Icon28Notifications } from '@vkontakte/icons/dist/28/notifications'
+import { Icon28More } from '@vkontakte/icons/dist/28/more'
 
-import Home from './panels/Home';
-import routes from './panels/routes';
-import flot from './panels/flot';
-import rate from './panels/rate';
-import about from './panels/about';
-
-
-const App = () => {
-	const [activePanel, setActivePanel] = useState('home');
-	const [fetchedUser, setUser] = useState(null);
-	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
+function App() {
+	const [modalOpen, setModalOpen] = useState(true)
+	const [activeView, setActiveView] = useState("main")
+	const [books, setBooks] = useState(
+		() => {
+			const localData = localStorage.getItem('books')
+			return localData ? JSON.parse(localData) : []
+		}
+	)
+	const addBook = ({ name, author }) => {
+		const id = uuidv4();
+		let today = new Date();
+		let dd = String(today.getDate()).padStart(2, '0');
+		let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+		let yyyy = today.getFullYear();
+		today = mm + '/' + dd + '/' + yyyy;
+		const book = { id, name, author, today }
+		setBooks(old => [book, ...old])
+	}
+	const deleteBook = (bookId) => {
+		setBooks(books.filter(book => book.id !== bookId))
+	}
 
 	useEffect(() => {
-		bridge.subscribe(({ detail: { type, data }}) => {
-			if (type === 'VKWebAppUpdateConfig') {
-				const schemeAttribute = document.createAttribute('scheme');
-				schemeAttribute.value = data.scheme ? data.scheme : 'client_light';
-				document.body.attributes.setNamedItem(schemeAttribute);
-			}
-		});
-		async function fetchData() {
-			const user = await bridge.send('VKWebAppGetUserInfo');
-			setUser(user);
-			setPopout(null);
-		}
-		fetchData();
-	}, []);
+		localStorage.setItem('books', JSON.stringify(books))
+	}, [books])
 
-	const go = e => {
-		setActivePanel(e.currentTarget.dataset.to);
-	};
 
 	return (
-		<View activePanel={activePanel} popout={popout}>
-			<Home id='home' fetchedUser={fetchedUser} go={go} />
-			<routes id='routes' go={go} />
-			<flot id='flot' go={go} />
-			<rate id='rate' go={go} />
-			<about id='about' go={go} />
-		</View>
-	);
+		<LibraryContext.Provider value={{
+			books: books,
+			addBook: addBook,
+			deleteBook: deleteBook
+		}}>
+			<Root activeView={activeView}>
+				<View id="main">
+					<Home changeScreen={setActiveView} closeModal={setModalOpen} modalOpen={modalOpen} />
+				</View>
+				<View id="phrases">
+					<Phrases changeScreen={setActiveView} />
+				</View>
+				<View id="about">
+					<About changeScreen={setActiveView} />
+				</View>
+				<View id="library">
+					<Urban changeScreen={setActiveView} />
+				</View>
+			</Root>
+		</LibraryContext.Provider>
+	)
 }
 
 export default App;
-
