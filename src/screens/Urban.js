@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import { View, Panel, FormLayout, FormLayoutGroup, Card, CardGrid, Input, List, Div, Button, Cell, PanelHeader, PanelHeaderContent, PanelHeaderContext, Group } from '@vkontakte/vkui'
+import { View, Panel, FormLayout, FormLayoutGroup, Card, CardGrid, Headline, Title, Input, List, Div, Button, Cell, PanelHeader, PanelHeaderContent, PanelHeaderContext, Group } from '@vkontakte/vkui'
 import LibraryContext from '../context/LibraryContext'
 import BooksList from '../components/BookList'
 
@@ -27,7 +27,7 @@ export default function Urban(props) {
                             <PanelHeaderContent
                                 onClick={() => setContextOpened(!contextOpened)}
                             >
-                                Библиотека
+                                Воздушный флот
                         <img src={require('./../img/multimedia-option.svg')} alt="" className="home__arrow-down" onClick={() => setContextOpened(!contextOpened)} />
                             </PanelHeaderContent>
                         </PanelHeader>
@@ -37,46 +37,49 @@ export default function Urban(props) {
                                     data-mode="all"
                                     onClick={() => props.changeScreen("main")}
                                 >
-                                    Главная
+                                    Главная (О ВАК)
                         </Cell>
                                 <Cell
                                     data-mode="managed"
                                     onClick={() => props.changeScreen("phrases")}
                                 >
-                                    Цитаты
+                                    Направления
                         </Cell>
                                 <Cell
                                     data-mode="managed"
                                     onClick={() => setContextOpened(!contextOpened)}
                                 >
-                                    Библиотека
+                                    Воздушный флот
                         </Cell>
                                 <Cell
                                     data-mode="managed"
                                     onClick={() => props.changeScreen("about")}
                                 >
-                                    О приложении
+                                    Рейтинг пилотов
                         </Cell>
-
                             </List>
                         </PanelHeaderContext>
-                        <FormLayout>
-                            <FormLayoutGroup top="Введите название книги">
-                                <Input type="text" placeholder="Введите название" value={name} onChange={(e) => setName(e.target.value)} />
-                            </FormLayoutGroup>
-                        </FormLayout>
-                        <FormLayout style={{marginTop: -10}}>
-                            <FormLayoutGroup top="Введите автора книги">
-                                <Input type="text" placeholder="Введите автора" value={author} onChange={(e) => setAuthor(e.target.value)} />
-                            </FormLayoutGroup>
-                        </FormLayout>
-                        <Div>
-                            <Button stretched mode="primary" size="l" onClick={() => onSubmit()}>
-                                Добавить книгу
-                        </Button>
-                        </Div>
-                        <BooksList />
-
+                        <Group separator="hide">
+                    <CardGrid>
+                        <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
+                            <Div>
+                                <Title level="2" style={{ marginBottom: 10 }}>Воздушный флот</Title>
+                                <Headline weight="regular" style={{ marginBottom: 0 }}>Воздушный флот виртуальной авиакомпании «Czech Airlines» представлен девятью воздушными судами.
+                            </Headline>
+                            </Div>
+                        </Card>
+                    </CardGrid>
+                </Group>
+                <Group separator="hide">
+                    <CardGrid>
+                        <Card size="l" mode="shadow" style={{ marginTop: 10 }}>
+                            <Div>
+                                <Title level="3" style={{ marginBottom: 10 }}>Airbus A320-200</Title>
+                               <img src={require('./../img/A320.jpg')}>A320</img>
+                            </Div>
+                        </Card>
+                    </CardGrid>
+                </Group>
                     </Panel>
                 </View>
             )}
