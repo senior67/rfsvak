@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/rfsvak/static/css/main.907490ec.chunk.css",
-    "main.js": "/rfsvak/static/js/main.7743aaaf.chunk.js",
-    "main.js.map": "/rfsvak/static/js/main.7743aaaf.chunk.js.map",
+    "main.css": "/rfsvak/static/css/main.3fe1dfa9.chunk.css",
+    "main.js": "/rfsvak/static/js/main.581cf313.chunk.js",
+    "main.js.map": "/rfsvak/static/js/main.581cf313.chunk.js.map",
     "runtime-main.js": "/rfsvak/static/js/runtime-main.2ae04bb3.js",
     "runtime-main.js.map": "/rfsvak/static/js/runtime-main.2ae04bb3.js.map",
-    "static/css/2.86df01db.chunk.css": "/rfsvak/static/css/2.86df01db.chunk.css",
-    "static/js/2.5bf90a91.chunk.js": "/rfsvak/static/js/2.5bf90a91.chunk.js",
-    "static/js/2.5bf90a91.chunk.js.map": "/rfsvak/static/js/2.5bf90a91.chunk.js.map",
+    "static/css/2.47f050ad.chunk.css": "/rfsvak/static/css/2.47f050ad.chunk.css",
+    "static/js/2.cac2c656.chunk.js": "/rfsvak/static/js/2.cac2c656.chunk.js",
+    "static/js/2.cac2c656.chunk.js.map": "/rfsvak/static/js/2.cac2c656.chunk.js.map",
     "index.html": "/rfsvak/index.html",
-    "precache-manifest.183cbdf988cd12986bc42f79e28e4432.js": "/rfsvak/precache-manifest.183cbdf988cd12986bc42f79e28e4432.js",
+    "precache-manifest.920c419367749f5a63ed6e7f4d51a4d3.js": "/rfsvak/precache-manifest.920c419367749f5a63ed6e7f4d51a4d3.js",
     "service-worker.js": "/rfsvak/service-worker.js",
-    "static/css/2.86df01db.chunk.css.map": "/rfsvak/static/css/2.86df01db.chunk.css.map",
-    "static/css/main.907490ec.chunk.css.map": "/rfsvak/static/css/main.907490ec.chunk.css.map",
-    "static/js/2.5bf90a91.chunk.js.LICENSE.txt": "/rfsvak/static/js/2.5bf90a91.chunk.js.LICENSE.txt",
-    "static/media/persik.png": "/rfsvak/static/media/persik.4e1ec840.png"
+    "static/css/2.47f050ad.chunk.css.map": "/rfsvak/static/css/2.47f050ad.chunk.css.map",
+    "static/css/main.3fe1dfa9.chunk.css.map": "/rfsvak/static/css/main.3fe1dfa9.chunk.css.map",
+    "static/js/2.cac2c656.chunk.js.LICENSE.txt": "/rfsvak/static/js/2.cac2c656.chunk.js.LICENSE.txt",
+    "static/media/multimedia-option.svg": "/rfsvak/static/media/multimedia-option.8166cd6c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2ae04bb3.js",
-    "static/css/2.86df01db.chunk.css",
-    "static/js/2.5bf90a91.chunk.js",
-    "static/css/main.907490ec.chunk.css",
-    "static/js/main.7743aaaf.chunk.js"
+    "static/css/2.47f050ad.chunk.css",
+    "static/js/2.cac2c656.chunk.js",
+    "static/css/main.3fe1dfa9.chunk.css",
+    "static/js/main.581cf313.chunk.js"
   ]
 }
