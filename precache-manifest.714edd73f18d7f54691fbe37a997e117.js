@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5d22d0acbde2541181d6cdec636231d",
+    "revision": "157c515d3bddfa72bbad40dfa8e7d554",
     "url": "/rfsvak/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rfsvak/static/css/2.47f050ad.chunk.css"
   },
   {
-    "revision": "f40264299a4fcaf87bc5",
+    "revision": "c6860ba17787dbf34f27",
     "url": "/rfsvak/static/css/main.3fe1dfa9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rfsvak/static/js/2.1d561ab1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f40264299a4fcaf87bc5",
-    "url": "/rfsvak/static/js/main.451f7589.chunk.js"
+    "revision": "c6860ba17787dbf34f27",
+    "url": "/rfsvak/static/js/main.0349c51e.chunk.js"
   },
   {
     "revision": "337c1ab158b072d84bea",
