@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rfsvak/static/css/main.3fe1dfa9.chunk.css",
-    "main.js": "/rfsvak/static/js/main.bf0fa30c.chunk.js",
-    "main.js.map": "/rfsvak/static/js/main.bf0fa30c.chunk.js.map",
+    "main.js": "/rfsvak/static/js/main.80a4a64d.chunk.js",
+    "main.js.map": "/rfsvak/static/js/main.80a4a64d.chunk.js.map",
     "runtime-main.js": "/rfsvak/static/js/runtime-main.2ae04bb3.js",
     "runtime-main.js.map": "/rfsvak/static/js/runtime-main.2ae04bb3.js.map",
     "static/css/2.47f050ad.chunk.css": "/rfsvak/static/css/2.47f050ad.chunk.css",
     "static/js/2.bb02541a.chunk.js": "/rfsvak/static/js/2.bb02541a.chunk.js",
     "static/js/2.bb02541a.chunk.js.map": "/rfsvak/static/js/2.bb02541a.chunk.js.map",
     "index.html": "/rfsvak/index.html",
-    "precache-manifest.6b088d6a6b9e48aaae2b4d61a23998c3.js": "/rfsvak/precache-manifest.6b088d6a6b9e48aaae2b4d61a23998c3.js",
+    "precache-manifest.1c7fb8a080e4e89da4d4f24302d02054.js": "/rfsvak/precache-manifest.1c7fb8a080e4e89da4d4f24302d02054.js",
     "service-worker.js": "/rfsvak/service-worker.js",
     "static/css/2.47f050ad.chunk.css.map": "/rfsvak/static/css/2.47f050ad.chunk.css.map",
     "static/css/main.3fe1dfa9.chunk.css.map": "/rfsvak/static/css/main.3fe1dfa9.chunk.css.map",
@@ -30,6 +30,6 @@
     "static/css/2.47f050ad.chunk.css",
     "static/js/2.bb02541a.chunk.js",
     "static/css/main.3fe1dfa9.chunk.css",
-    "static/js/main.bf0fa30c.chunk.js"
+    "static/js/main.80a4a64d.chunk.js"
   ]
 }
