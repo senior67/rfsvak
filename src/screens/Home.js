@@ -64,11 +64,11 @@ export default function Home(props) {
                             <Banner
                                 mode="image"
                                 header="Добавлены новые направления!"
-                                subheader="Добавлены новые направления ВАК 'Czech Airlines'"
+                                subheader="Добавлены новые направления ВАК 'Czech Airlines'! Список пополниля еще на 9 направлений."
                                 background={
                                     <div
                                         style={{
-                                            backgroundColor: '#DC143C',
+                                            backgroundColor: '#FFD700',
                                             backgroundImage: './../img/transportation.svg',
                                             backgroundPosition: 'right bottom',
                                             backgroundSize: 70,
@@ -76,7 +76,7 @@ export default function Home(props) {
                                         }}
                                     />
                                 }
-                                actions={<Button mode="overlay" style={{color: 'white', background: '#FFC15B'}} onClick={() => seenButton()}>Подробнее</Button>}
+                                actions={<Button mode="overlay" style={{color: 'white', background: '#FF8C00'}} onClick={() => seenButton()}>Подробнее</Button>}
                             /> : ""
                     }
                 </Group>
@@ -86,7 +86,8 @@ export default function Home(props) {
                             <Div>
                                 <Title level="2" style={{ marginBottom: 10 }}>Кто вы?</Title>
                                 <Headline weight="regular" style={{ marginBottom: 0 }}>Мы - ВАК (виртуальная авиакомпания), представленная в игре Real Flight Simulator (RORTOS).<br />
-                                Хаб: Пражский аэропорт имени Вацлава Гавела (LKPR)</Headline>
+                                Хаб: Пражский аэропорт имени Вацлава Гавела (LKPR)<br />
+                                Дочерние ВАК: Air Prague</Headline>
                             </Div>
                         </Card>
                     </CardGrid>
